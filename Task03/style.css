@@ -1,0 +1,189 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: Montserrat;
+	margin: 0;
+	font-size: 12px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.wrapper{
+	background-color: #ffffff;
+	margin: auto;
+}
+.header {
+	background-image: url("images/masthead.jpg");
+}
+.wrap {
+	padding: 20px 100px;
+}
+.head img{
+	padding: 14px 16px;
+	float: left;
+}
+.head ul{
+	float: right;
+	margin: 0px;
+	padding: 14px;
+	list-style-type: none;
+}
+.head li{
+	float: left;
+}
+.head li a{
+	padding: 14px 16px;
+	color: #ccccd3;
+	font-size: 14px;
+	font-weight: 700;
+	text-decoration: none;
+}
+.head li a.active{
+	color: #e84545;
+}
+.head li a:hover:not(.active){
+	color: #e84545;
+}
+.banner{
+	padding: 100px 0px 100px 0px;
+}
+.banner .content {
+    margin: 0;
+    padding-bottom: 18px;
+}
+.content{
+	text-align: center;
+}
+h1{
+	color: #ffffff;
+	font-size: 65px;
+	font-weight: 600;
+	margin: 32px 0px;
+}
+.content p{
+	font-size: 22px;
+	font-weight: 400;
+	color: #ffffff;
+	line-height: 1.5;
+}
+.content img{
+	margin-top: 10px;
+}
+.features{
+	padding: 100px;
+}
+.features-con{
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+.features-box{
+	text-align: center;
+	padding: 10% 12% 10% 12%;
+}
+.work-img{
+	width: 25%;
+	float: left;
+	background-color: #d3403f;
+}
+.work-img img{
+	display: block;
+	width: 100%;
+	height: 285px;
+	overflow: hidden;
+}
+.work-img img:hover{
+	opacity: 0.2;
+}
+.ovr-hdn{
+	overflow: hidden;
+}
+.work-text{
+	position: absolute;
+    z-index: 222;
+    background-color: #d3403f;
+    width: 100%;
+    text-align: center;
+    top: 55%;
+    transform: translateY(-50%);
+    padding: 5100vh 0;
+    display: none;
+}
+.team{
+	padding: 100px;
+}
+.list-team{
+	display: flex;
+}
+.box-team{
+	width: 25%;
+	text-align: center;
+}
+.box-team h2{
+	font-weight: 500;
+	text-align: left;
+	padding-left: 33px;
+}
+.box-team h4{
+	font-weight: 500;
+	color: #e84545;
+	text-align: left;
+	padding-left: 33px;
+}
+.box-team p{
+	text-align: left;
+	padding: 0px 33px;
+	font-weight: 500;
+	color: #6c7279;
+}
+.box-team ul{
+	list-style-type: none;
+	padding-left: 33px;
+}
+.box-team li{
+	float: left;
+	border: solid 1px #e8ecee;
+	margin: 2px;
+}
+.fb{
+	padding: 9px 15px 8px 15px;
+}
+.twt{
+	padding: 11px 9px 10px 9px;
+}
+.lin{
+	padding: 10px 11px 9px 11px;
+}
+.si{
+	padding-top: 20px;
+}
+.clients{
+	display: flex;
+}
+.client{
+	background-color: #2b2e4a;
+}
+.client-con{
+	padding: 100px;
+	background-color: #53354a;
+	color: #ffffff;
+}
+.box{
+	width: 50%;
+}
+.client img{
+	display: block;
+}
+.quotesign{
+	font-weight: 400;
+    width: 400px;
+	width: 480px;
+    font-size: 30px;
+}
+.animation .quotesign{
+    animation-name: anim;
+    animation-duration: 2.5s;
+}
