@@ -1,0 +1,201 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: Montserrat;
+	margin: 0;
+	font-size: 12px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.wrapper{
+	background-color: #f0efed;
+	margin: auto;
+}
+.wrap {
+	padding: 20px 100px;
+}
+.header {
+	background-color: #d1dce2;
+}
+.head img{
+	padding: 14px 16px;
+	float: left;
+}
+.head ul{
+	float: right;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+.head li{
+	float: left;
+}
+.head li a{
+	padding: 14px 16px;
+	color: #191919;
+	font-size: 14px;
+	font-weight: 700;
+	text-decoration: none;
+}
+.head li a.active{
+	color: #1ecbc6;
+}
+.head li a:hover:not(.active){
+	color: #1ecbc6;
+}
+.banner{
+	padding: 70px 0px 100px 100px;
+}
+.banner .content {
+    margin: 0;
+    padding: 0px 16px 18px 18px;
+}
+.content{
+	max-width: 610px;
+	float: right;
+}
+h2{
+	color: #1d1d1d;
+	font-size: 38px;
+	font-weight: 600;
+	margin: 32px 0px;
+}
+.content p{
+	font-size: 18px;
+	font-weight: 600;
+	color: #787878;
+	line-height: 1.5;
+}
+.content img{
+	margin-top: 10px;
+}
+.about{
+	text-align: center;
+}
+.about-con{
+	padding: 80px;
+}
+.skills{
+	display: flex;
+}
+.skicon{
+	background-color: #b3ddd1;
+}
+.skimg{
+	background-color: #80beaf;
+}
+.box{
+	width: 50%;
+	padding: 150px 100px;
+}
+.bar{
+	background-color: #f1f0ec;
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+.line{
+	background-color: #10c9c3;
+	height: 3px;
+}
+.uiux-bar{
+	width: 75%;
+}
+.webdev{
+	width: 90%;
+}
+.marketing{
+	width: 65%;
+}
+.numbers{
+	padding: 100px;
+	background-color: #f5b994;
+}
+.list-no{
+	display: flex;
+}
+.no-item{
+	width: 25%;
+	display: flex;
+}
+.no-text{
+	padding-left: 27px;
+}
+.no-text h4{
+	font-size: 18px;
+	font-weight: 600;
+	color: #ffffff;
+	margin: 0;
+}
+.no-text p{
+	font-size: 12px;
+	font-weight: normal;
+	color: #ffffff;
+	margin: 0;
+}
+.work-img{
+	width: 25%;
+	float: left;
+	background-color: #c3dfef;
+}
+.work-img img{
+	width: 100%;
+	display: block;
+}
+.work-img img:hover{
+	opacity: 0.5;
+}
+.loadmore{
+	background-color: #f5f5f5;
+}
+.loadmore p{
+	margin: 0;
+	font-size: 18px;
+	font-weight: 600;
+	color: #787878;
+	line-height: 1.5;
+}
+.loadmore p a{
+	text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 20px 0;
+    font-size: 12px;
+    font-weight: 600;
+    color: #8e8e8e;
+}
+.work-pcs{
+	
+	padding: 100px;
+}
+.wrk-ctn{
+	text-align: center;
+}
+.wrk-ctn h2{
+	font-size: 30px;
+}
+.wrk-ctn p{
+	font-size: 16px;
+	color: #787878;
+	font-family: Nunito Sans;
+	font-weight: 600;
+}
+.mv-work{
+    margin-top: 57px;
+}
+.mv-work video{
+	width: 100%;
+	height: auto;
+}
+.service{
+	background-color: #d1dce2;
+	display: flex;
+}
+.svc-ctn{
+	width: 25%;
+}
