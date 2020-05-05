@@ -192,7 +192,7 @@ h1{
 	color: #ffffff;
 }
 .notes{
-	padding: 80px;
+	padding: 75px;
 }
 .box{
 	width: 50%;
@@ -220,7 +220,7 @@ h1{
 	width: 60%;
 }
 .comment .quotesign{
-    line-height: 42px;
+    line-height: 40px;
     color: #ffffff;
 }
 .quotesign{
@@ -230,13 +230,14 @@ h1{
 }
 .dot-list{
 	text-align: center;
+	display: flex;
 }
 .dot{
 	margin-right: 8px;
 	cursor: pointer;
 	content: url("images/dot-act.png");
 }
-.dot:active, .dot:hover{
+.dot.active, .dot:hover{
 	content: url("images/dot.png");
 }
 .download{
