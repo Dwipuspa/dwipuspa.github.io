@@ -234,10 +234,10 @@ h1{
 .dot{
 	margin-right: 8px;
 	cursor: pointer;
-	content: url("images/dot.png");
+	content: url("images/dot-act.png");
 }
 .dot:active, .dot:hover{
-	content: url("images/dot-act.png");
+	content: url("images/dot.png");
 }
 .download{
 	text-align: center;

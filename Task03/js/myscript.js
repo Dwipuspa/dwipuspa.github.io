@@ -5,15 +5,6 @@ var slideIndex = 0,auto,i;
 		var clients = document.getElementsByClassName("quotename");
 		var dots = document.getElementsByClassName("dot");
 		$('.clients').ready(function() {
-			$('.comment').each(function(){
-				var highestBox = 0;
-				$('.quotesign', this).each(function(){
-					if($(this).height() > highestBox) {
-						highestBox = $(this).height(); 
-					}
-				});  
-				$('.quotesign',this).height(highestBox);
-			});
 			autoslider();
 		});
 		function autoslider() {
