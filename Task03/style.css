@@ -200,16 +200,56 @@ h1{
 .client img{
 	display: block;
 }
+.over-hidden{
+	overflow: hidden;
+}
+.clients-box{
+	width: 100%;
+	overflow: hidden;
+}
+.client-photo{
+	display: block;
+}
+.client-photo img{
+	width: 100%;
+    vertical-align: middle;
+    border-style: none;
+    position: relative;
+}
+.quote{
+	width: 60%;
+}
+.comment .quotesign{
+    line-height: 42px;
+    color: #ffffff;
+}
 .quotesign{
 	font-weight: 400;
-    width: 400px;
-	width: 480px;
     font-size: 30px;
+    display: block;
 }
-.animation .quotesign{
-    animation-name: anim;
-    animation-duration: 2.5s;
+.dot-list{
+	text-align: center;
 }
+.dot{
+	margin-right: 8px;
+	cursor: pointer;
+	content: url("images/dot.png");
+}
+.dot:active, .dot:hover{
+	content: url("images/dot-act.png");
+}
+
+
+
+
+
+
+
+
+
+
+
 .download{
 	text-align: center;
 }
