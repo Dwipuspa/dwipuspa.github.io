@@ -20,40 +20,45 @@ body {
 	background-image: url("images/masthead.jpg");
 }
 .wrap {
-	padding: 20px 100px;
+	width: 1170px;
+	margin: 0 auto;
 }
 .head img{
-	padding: 14px 16px;
+	padding: 40px 0px 30px 0px;
 	float: left;
 }
 .head ul{
 	float: right;
 	margin: 0px;
-	padding: 14px;
 	list-style-type: none;
 }
 .head li{
 	float: left;
+	padding: 40px;
+}
+.head li:last-child{
+	padding: 40px 0px 30px 30px;
 }
 .head li a{
-	padding: 14px 16px;
 	color: #ccccd3;
 	font-size: 14px;
 	font-weight: 700;
 	text-decoration: none;
 }
-.head li a.active{
+/*.head li a.active{
 	color: #e84545;
 }
 .head li a:hover:not(.active){
 	color: #e84545;
+}*/
+#line{
+	border: solid 1px #4a4c63;
 }
 .banner{
 	padding: 100px 0px 100px 0px;
 }
 .banner .content {
     margin: 0;
-    padding-bottom: 18px;
 }
 .content{
 	text-align: center;
@@ -71,10 +76,10 @@ h1{
 	line-height: 1.5;
 }
 .content img{
-	margin-top: 10px;
+	margin-top: 50px;
 }
 .features{
-	padding: 100px;
+	padding: 100px 0px;
 }
 .features-con{
 	display: grid;
@@ -82,13 +87,16 @@ h1{
 }
 .features-box{
 	text-align: center;
-	padding: 10% 12% 10% 12%;
+	padding: 10% 12%;
 }
 .work-img{
 	width: 25%;
 	float: left;
 	background-color: #d3403f;
 	position: relative;
+}
+.work-img:hover .work-text{
+	display:block;
 }
 .work-img img{
 	display: block;
@@ -109,13 +117,24 @@ h1{
     background-color: #d3403f;
     width: 100%;
     text-align: center;
-    top: 55%;
+    top: 50%;
     transform: translateY(-50%);
     padding: 5100vh 0;
     display: none;
+	opacity: 0.9;
+	color: #ffffff;
+}
+.work-text h4{
+	font-size: 14px;
+	font-weight: 500;
+	margin: 5px 0px;
+}
+.work-text p{
+	font-size: 12px;
+	margin: 5px 0px;
 }
 .team{
-	padding: 100px;
+	padding: 100px 0px;
 }
 .list-team{
 	display: flex;
@@ -127,23 +146,23 @@ h1{
 .box-team h2{
 	font-weight: 500;
 	text-align: left;
-	padding-left: 33px;
+	padding-left: 11px;
 }
 .box-team h4{
 	font-weight: 500;
 	color: #e84545;
 	text-align: left;
-	padding-left: 33px;
+	padding-left: 11px;
 }
 .box-team p{
 	text-align: left;
-	padding: 0px 33px;
+	padding: 0px 11px;
 	font-weight: 500;
 	color: #6c7279;
 }
 .box-team ul{
 	list-style-type: none;
-	padding-left: 33px;
+	padding-left: 11px;
 }
 .box-team li{
 	float: left;
@@ -169,9 +188,11 @@ h1{
 	background-color: #2b2e4a;
 }
 .client-con{
-	padding: 100px;
 	background-color: #53354a;
 	color: #ffffff;
+}
+.notes{
+	padding: 80px;
 }
 .box{
 	width: 50%;
@@ -188,4 +209,61 @@ h1{
 .animation .quotesign{
     animation-name: anim;
     animation-duration: 2.5s;
+}
+.download{
+	text-align: center;
+}
+.dwnld-cont{
+	padding: 100px 0px;
+}
+.dwnld-cont p{
+	color: #2d3033;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 0px 0px 35px 0px;
+}
+.dwnld-cont h1{
+	color: #2d3033;
+	font-size: 28px;
+	font-weight: 300;
+	margin: 0px 0px 15px 0px;
+}
+.footer{
+	background-color: #3a3e64;
+}
+.footer-first{
+	display: flex;
+}
+.footer-box{
+	width: 33.3%;
+	text-align: center;
+    padding: 50px 40px;
+}
+.footer-box:first-child{
+	padding: 50px 40px 50px 0px;
+}
+.footer-box h4{
+	color: #ffffff;
+	text-transform: uppercase;
+}
+.footer-box p{
+	color: #afb0bc;
+}
+.footer-box .si{
+	margin: 0;
+	padding-top: 0;
+}
+.footer-box ul{
+	list-style-type: none;
+	margin: 0;
+	padding-left: 98px;
+}
+.footer-box li{
+	float: left;
+    border: solid 2px #e8ecee;
+    margin: 2px;
+}
+.footer-last{
+	background-color: #313454;
 }
