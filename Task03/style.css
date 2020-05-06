@@ -209,6 +209,7 @@ h1{
 }
 .client-photo{
 	display: block;
+	height: 500px;
 }
 .client-photo img{
 	width: 100%;
