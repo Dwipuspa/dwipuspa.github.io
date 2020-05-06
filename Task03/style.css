@@ -269,10 +269,13 @@ h1{
 .footer-box{
 	width: 33.3%;
 	text-align: center;
-    padding: 50px 40px;
+    padding: 60px 40px;
 }
 .footer-box:first-child{
-	padding: 50px 40px 50px 0px;
+	padding: 60px 40px 60px 0px;
+}
+.footer-box:last-child{
+	padding: 60px 0px 60px 40px;
 }
 .footer-box h4{
 	color: #ffffff;
@@ -280,6 +283,9 @@ h1{
 }
 .footer-box p{
 	color: #afb0bc;
+	font-size: 14px;
+	font-weight: 500;
+	font-family: 'Raleway', sans-serif;
 }
 .footer-box .si{
 	margin: 0;
@@ -296,5 +302,14 @@ h1{
     margin: 2px;
 }
 .footer-last{
+	text-align: center;
 	background-color: #313454;
+	padding: 25px 0px;
+	color: #808080;
+	font-size: 14px;
+	font-weight: 500;
+	font-family: 'Raleway', sans-serif;
+}
+.footer-last p{
+	
 }
