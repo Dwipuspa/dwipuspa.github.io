@@ -75,6 +75,9 @@ h1{
 	color: #ffffff;
 	line-height: 1.5;
 }
+.content a:hover{
+	opacity: 0.8;
+}
 .content img{
 	margin-top: 50px;
 }
@@ -259,6 +262,9 @@ h1{
 	font-size: 28px;
 	font-weight: 300;
 	margin: 0px 0px 15px 0px;
+}
+.dwnld-cont a:hover{
+	opacity: 0.8;
 }
 .footer{
 	background-color: #3a3e64;
