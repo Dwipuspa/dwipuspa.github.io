@@ -193,9 +193,20 @@ h2{
 	height: auto;
 }
 .service{
-	background-color: #d1dce2;
-	display: flex;
+	padding: 100px;
+	background-color: #f5b994;
 }
 .svc-ctn{
-	width: 25%;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+}
+.service-list{
+	text-align: center;
+	padding: 20px 0px;
+}
+.service-list p{
+	font-weight: 500;
+	font-size: 16px;
+	margin: 10px 0px;
+	color: #787878;
 }
