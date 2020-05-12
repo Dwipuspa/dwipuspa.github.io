@@ -330,19 +330,6 @@ h1{
   text-decoration: none;
 }
 
-.togle-icon {
-    display: inline-block;
-    width: 1.5em;
-    height: 1.5em;
-    vertical-align: middle;
-    content: "";
-    background: no-repeat center center;
-    background-size: 100% 100%;
-}
-
-	.togle-icon{
-    	background: url(%3csvg xmlns='http://www.w3.org/2000/svg' width='30' hei…miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e);
-}
 
 @media (max-width: 1200px){
 	.wrap {
@@ -460,38 +447,34 @@ h1{
     	text-align: right;
 	}
 	.icon{
+		background: url("&#9776;");
 		height: 44px;
-    overflow: hidden;
-    position: fixed;
-    right: 5%;
-    top: 32px;
-    white-space: nowrap;
-    width: 44px;
-    z-index: 99999;
+	    overflow: hidden;
+	    position: fixed;
+	    right: 5%;
+	    top: 32px;
+	    white-space: nowrap;
+	    width: 44px;
+	    z-index: 99999;
 		text-decoration: none;
 	}
 	.icon:before {
-    background-color: #e84545;
-    transform: scale(1);
-    transition-duration: 0.3s;
-}
+	    background-color: #e84545;
+	    transform: scale(1);
+	    transition-duration: 0.3s;
+	}
 	.icon:before, .icon:after {
-    border-radius: 50%;
-    content: "";
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    transform: translateZ(0);
-    backface-visibility: hidden;
-    transition-property: transform;
-}
-	.togle-icon {
-    width: 22px;
-    height: 38px;
-    background-size: 120% 74%;
-}
+	    border-radius: 50%;
+	    content: "";
+	    height: 100%;
+	    left: 0;
+	    position: absolute;
+	    top: 0;
+	    width: 100%;
+	    transform: translateZ(0);
+	    backface-visibility: hidden;
+	    transition-property: transform;
+	}
 	
 	.logo img{
 		padding: 40px 10px 30px 30px;
