@@ -68,9 +68,9 @@ var slideIndex = 0,auto,i;
 
 function myFunction() {
   var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
+  if (x.className === "topnav clearfix") {
     x.className += " responsive";
   } else {
-    x.className = "topnav";
+    x.className = "topnav clearfix";
   }
 }
