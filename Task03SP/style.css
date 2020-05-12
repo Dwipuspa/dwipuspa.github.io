@@ -429,51 +429,35 @@ h1{
     	float: right;
     	display: block;
   	}	
-  	.topnav.responsive {position: relative;}
+  	/*.topnav.responsive {position: relative;}*/
   	.topnav.responsive .icon {
     	position: absolute;
     	right: 0;
    		top: 0;
   	}
   	.topnav.responsive li {
-  		float: none;
+  		float: left;
   		display: block;
   		text-align: left;
   	}
-  	.topnav.responsive {float: left;}
+  	/*.topnav.responsive {float: left;}*/
   	.topnav.responsive {
     	display: block;
-    	width: 100%;
+    	width: 98%;
     	text-align: right;
 	}
 	.icon{
-		background: url("&#9776;");
-		height: 44px;
+		background-color: #E84545;
+		border-radius: 50%;
+		height: 42px;
 	    overflow: hidden;
 	    position: fixed;
 	    right: 5%;
 	    top: 32px;
 	    white-space: nowrap;
-	    width: 44px;
+	    width: 35px;
 	    z-index: 99999;
 		text-decoration: none;
-	}
-	.icon:before {
-	    background-color: #e84545;
-	    transform: scale(1);
-	    transition-duration: 0.3s;
-	}
-	.icon:before, .icon:after {
-	    border-radius: 50%;
-	    content: "";
-	    height: 100%;
-	    left: 0;
-	    position: absolute;
-	    top: 0;
-	    width: 100%;
-	    transform: translateZ(0);
-	    backface-visibility: hidden;
-	    transition-property: transform;
 	}
 	
 	.logo img{
@@ -490,6 +474,7 @@ h1{
 	.head li{
 		float: none;
 		padding: 20px 30px 10px 15px;
+		position: absolute;
 	}
 	.head li:last-child{
 		padding: 20px 30px 30px 15px;
