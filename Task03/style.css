@@ -195,7 +195,7 @@ h1{
 	color: #ffffff;
 }
 .notes{
-	padding: 75px;
+	padding: 75px 75px 70px 80px;
 }
 .box{
 	width: 50%;
@@ -212,16 +212,19 @@ h1{
 }
 .client-photo{
 	display: block;
-	height: 500px;
 }
 .client-photo img{
 	width: 100%;
     vertical-align: middle;
     border-style: none;
     position: relative;
+	height: 470px;
 }
 .quote{
-	width: 60%;
+	width: 70%;
+}
+.comment{
+	height: 253px;
 }
 .comment .quotesign{
     line-height: 40px;
@@ -315,7 +318,4 @@ h1{
 	font-size: 14px;
 	font-weight: 500;
 	font-family: 'Raleway', sans-serif;
-}
-.footer-last p{
-	
 }
