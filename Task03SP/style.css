@@ -452,7 +452,7 @@ h1{
 		height: 42px;
 	    overflow: hidden;
 	    position: fixed;
-	    right: 5%;
+	    right: 4%;
 	    top: 20px;
 	    white-space: nowrap;
 	    width: 35px;
@@ -625,8 +625,23 @@ h1{
 	    position: relative;
 		height: 436px;
 	}
+	.quote{
+		width: 75%;
+	}
+	.notes{
+		padding: 75px 70px 70px 80px;
+	}
 	.comment{
-		height: auto;
+		height: 220px;
+	}
+	.comment .quotesign{
+ 	   line-height: 36px;
+ 	   color: #ffffff;
+	}
+	.quotesign{
+		font-weight: 400;
+	    font-size: 32px;
+	    display: block;
 	}
 	.footer-first{
 		display: block;
