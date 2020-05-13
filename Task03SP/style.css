@@ -453,7 +453,7 @@ h1{
 	    overflow: hidden;
 	    position: fixed;
 	    right: 4%;
-	    top: 20px;
+	    top: 18px;
 	    white-space: nowrap;
 	    width: 35px;
 	    z-index: 99999;
@@ -461,7 +461,7 @@ h1{
 	}
 	
 	.logo img{
-		padding: 32px 10px 25px 30px;
+		padding: 30px 10px 27px 30px;
 		float: left;
 	}
 	.nav{
@@ -640,7 +640,7 @@ h1{
 	}
 	.quotesign{
 		font-weight: 400;
-	    font-size: 32px;
+	    font-size: 30px;
 	    display: block;
 	}
 	.footer-first{
