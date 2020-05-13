@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body {
-	font-family: Montserrat;
+	font-family: "Raleway", sans-serif;
 	margin: 0;
 	font-size: 12px;
 }
@@ -23,8 +23,11 @@ body {
 	width: 1170px;
 	margin: 0 auto;
 }
+.head{
+	padding: 40px 0px;
+	border-bottom: solid 1px #4a4c63;
+}
 .head img{
-	padding: 40px 0px 30px 0px;
 	float: left;
 }
 .head ul{
@@ -34,16 +37,14 @@ body {
 }
 .head li{
 	float: left;
-	padding: 40px;
-}
-.head li:last-child{
-	padding: 40px 0px 30px 30px;
+	margin-top: 3px;
 }
 .head li a{
 	color: #ccccd3;
-	font-size: 14px;
+	font-size: 13px;
 	font-weight: 700;
 	text-decoration: none;
+	padding-left: 40px;
 }
 /*.head li a.active{
 	color: #e84545;
@@ -51,11 +52,8 @@ body {
 .head li a:hover:not(.active){
 	color: #e84545;
 }*/
-#line{
-	border: solid 1px #4a4c63;
-}
 .banner{
-	padding: 100px 0px 100px 0px;
+	padding: 113px 0px 100px 0px;
 }
 .banner .content {
     margin: 0;
@@ -64,22 +62,25 @@ body {
 	text-align: center;
 }
 h1{
+	font-family: 'Open Sans', sans-serif;
 	color: #ffffff;
 	font-size: 65px;
-	font-weight: 600;
-	margin: 32px 0px;
+	font-weight:700;
+	margin: 32px 0px 10px 0px;
+	line-height: 1.1;
 }
 .content p{
 	font-size: 22px;
-	font-weight: 400;
+	font-weight: 300;
 	color: #ffffff;
 	line-height: 1.5;
+	margin: 0px 0px 80px 0px;
 }
 .content a:hover{
 	opacity: 0.8;
 }
 .content img{
-	margin-top: 50px;
+	margin-bottom: 50px;
 }
 .features{
 	padding: 100px 0px;
@@ -90,7 +91,17 @@ h1{
 }
 .features-box{
 	text-align: center;
-	padding: 10% 12%;
+	padding: 10% 11% 2% 12%;
+	font-size: 14px;
+}
+.features-box h4{
+	color: #2d3033;
+	font-weight: 700;
+	margin: 27px 0px 10px 0px;
+}
+.features-box p{
+	color: #6c7279;
+	line-height: 1.5;
 }
 .work-img{
 	width: 25%;
@@ -140,37 +151,48 @@ h1{
 	padding: 100px 0px;
 }
 .list-team{
-	display: flex;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
 }
 .box-team{
-	width: 25%;
 	text-align: center;
 }
 .box-team h2{
-	font-weight: 500;
+	font-size: 22px;
+    color: #2d3033;
+	font-weight: 400;
 	text-align: left;
-	padding-left: 11px;
+	padding-left: 15px;
+	margin: 16px 0px 8px 0px;
 }
 .box-team h4{
-	font-weight: 500;
+	font-size: 13px;
+	font-weight: 400;
 	color: #e84545;
 	text-align: left;
-	padding-left: 11px;
+	padding-left: 15px;
+	margin: 8px 0px 20px 0px;
 }
 .box-team p{
+	font-size: 14px;
+	line-height: 1.6;
 	text-align: left;
-	padding: 0px 11px;
-	font-weight: 500;
+	padding: 0px 15px;
+	font-weight: 400;
 	color: #6c7279;
+	margin-bottom: 10px
 }
 .box-team ul{
 	list-style-type: none;
-	padding-left: 11px;
+	padding-left: 15px;
 }
 .box-team li{
 	float: left;
 	border: solid 1px #e8ecee;
-	margin: 2px;
+	margin: 2px 2px 2px 2px;
+}
+.box-team li:first-child{
+	margin: 2px 2px 2px 0px;
 }
 .fb{
 	padding: 9px 15px 8px 15px;
@@ -182,7 +204,7 @@ h1{
 	padding: 10px 11px 9px 11px;
 }
 .si{
-	padding-top: 20px;
+	padding-top: 7px;
 }
 .clients{
 	display: flex;
