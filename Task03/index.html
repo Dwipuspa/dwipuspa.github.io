@@ -7,6 +7,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 
 <body>
@@ -14,7 +15,7 @@
 		<div class="header clearfix">
 			<div class="wrap">
 				<div class="head clearfix">
-					<a href="#"><img src="images/logo.png" width="189" height="24" alt=""></a>
+					<div class="logo"><a href="#"><img src="images/logo.png" alt=""></a></div>
 					<ul>
 						<li><a class="active" href="#features">FEATURES</a></li>
 						<li><a href="#works">WORKS</a></li>
@@ -35,32 +36,32 @@
 		<div class="features wrap" id="features">
 			<div class="features-con">
 				<div class="features-box">
-					<img src="images/pencil.gif" width="60" height="60" alt="">
+					<img src="images/pencil.png" width="60" height="60" alt="">
 					<h4>EASILY CUSTOMISED</h4>
 					<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
 				</div>
 				<div class="features-box">
-					<img src="images/tv.gif" width="73" height="60" alt="">
+					<img src="images/tv.png" width="73" height="60" alt="">
 					<h4>RESPONSIVE READY</h4>
 					<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
 				</div>
 				<div class="features-box">
-					<img src="images/lamp.gif" width="41" height="60" alt="">
+					<img src="images/lamp.png" width="41" height="60" alt="">
 					<h4>MODERN DESIGN</h4>
 					<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
 				</div>
 				<div class="features-box">
-					<img src="images/clean.gif" width="56" height="60" alt="">
+					<img src="images/clean.png" width="56" height="60" alt="">
 					<h4>CLEAN CODE</h4>
 					<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
 				</div>
 				<div class="features-box">
-					<img src="images/bag.gif" width="72" height="60" alt="">
+					<img src="images/bag.png" width="72" height="60" alt="">
 					<h4>READY TO SHIP</h4>
 					<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
 				</div>
 				<div class="features-box">
-					<img src="images/clouds.gif" width="79" height="60" alt="">
+					<img src="images/clouds.png" width="79" height="60" alt="">
 					<h4>DOWNLOAD FOR FREE</h4>
 					<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
 				</div>
@@ -215,10 +216,10 @@
 							<p class="quotename">Bill Gates, co-founder of Microsoft Corporation</p>
 					  	</div>
 						<div class="dot-list">
-							<div class="dot"></div>
-							<div class="dot"></div>
-							<div class="dot"></div>
-							<div class="dot"></div>
+							<div class="dot" onclick="currentSlide(1);"></div>
+							<div class="dot" onclick="currentSlide(2);"></div>
+							<div class="dot" onclick="currentSlide(3);"></div>
+							<div class="dot" onclick="currentSlide(4);"></div>
 						</div>
 					</div>
 				</div>
@@ -226,7 +227,7 @@
 		</div>
 		<div class="download wrap" id="download">
 			<div class="dwnld-cont">
-				<h1>Are You Ready to Start? Download Now For Free!</h1>
+				<h3>Are You Ready to Start? Download Now For Free!</h3>
 				<p>Fusce dapibus, tellus ac cursus commodo</p>
 				<a href="#"><img src="images/buttond.gif" width="280" height="46" alt=""></a>
 			</div>
@@ -234,11 +235,11 @@
 		<div class="footer">
 			<div class="footer-first wrap">
 				<div class="footer-box">
-					<h4>Location</h4>
+					<h5>Location</h5>
 					<p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
 				</div>
 				<div class="footer-box">
-					<h4>Share with Love</h4>
+					<h5>Share with Love</h5>
 					<div class="si clearfix">
 						<ul class="clearfix">
 							<li><a href="#"><img src="images/fb2.png"  width="8" height="18" alt="" class="fb"></a></li>
@@ -248,12 +249,12 @@
 					</div>
 				</div>
 				<div class="footer-box">
-					<h4>About ActiveBox</h4>
+					<h5>About ActiveBox</h5>
 					<p>Cras justo odio, dapibus ac facilisis in, egestas eget<br>quam. Donec ullamcorper nulla non metus auctor<br>fringilla.</p>
 				</div>
 			</div>
 			<div class="footer-last">
-				<p>Copyright © 2015 ActiveBox. All Rights Reserved<br>Made with <span style="color: #e84545;">&#9829;</span><span style="color: #ffffff"> by Kamal Chaneman</span></p>
+				<p>Copyright © 2015 ActiveBox. All Rights Reserved<br>Made with <i class="fa fa-heart pulse"></i><span style="color: #ffffff"> by Kamal Chaneman</span></p>
 			</div>
 		</div>
 	</div>
