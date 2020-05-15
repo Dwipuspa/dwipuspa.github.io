@@ -64,3 +64,22 @@ var slideIndex = 0,auto,i;
 			dots[slideIndex - 1].className += " active";
 			auto = setTimeout(autoslider, 4000);
 		}
+		function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav clearfix") {
+				x.className += " responsive";
+			} else {
+				x.className = "topnav clearfix";
+			}
+		}
+
+$(window).scroll(function() {
+    var height = $(window).scrollTop();
+
+    if(height  >= 50) {
+        $('#navbar').addClass('fixed');
+		} else {
+			$('#navbar').removeClass('fixed');
+		}
+	
+});
