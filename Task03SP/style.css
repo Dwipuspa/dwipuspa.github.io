@@ -27,7 +27,7 @@ body {
 	padding: 40px 0px;
 	border-bottom: solid 1px #4a4c63;
 }
-.head img{
+.logo img{
 	float: left;
 }
 .head ul{
@@ -44,7 +44,7 @@ body {
 	font-size: 13px;
 	font-weight: 700;
 	text-decoration: none;
-	padding-left: 40px;
+	padding-left: 43.5px;
 }
 /*.head li a.active{
 	color: #e84545;
@@ -53,7 +53,7 @@ body {
 	color: #e84545;
 }*/
 .banner{
-	padding: 113px 0px 100px 0px;
+	padding: 113px 0px 103px 0px;
 }
 .banner .content {
     margin: 0;
@@ -91,8 +91,15 @@ h1{
 }
 .features-box{
 	text-align: center;
-	padding: 10% 12% 2% 12%;
+	padding: 0% 8% 11.7% 8%;
 	font-size: 14px;
+	width: 329px;
+}
+.features-box:nth-child(2){
+	padding: 0% 8.5% 11.7% 8%;
+}
+.features-box:nth-child(5){
+	padding: 0% 8.5% 11.7% 8%;
 }
 .features-box h4{
 	color: #2d3033;
@@ -101,7 +108,8 @@ h1{
 }
 .features-box p{
 	color: #6c7279;
-	line-height: 1.5;
+	line-height: 1.58;
+	margin-top: 10px;
 }
 .work-img{
 	width: 25%;
@@ -115,7 +123,7 @@ h1{
 .work-img img{
 	display: block;
 	width: 100%;
-	height: 330px;
+	height: 350px;
 	overflow: hidden;
 }
 .work-img img:hover{
@@ -217,7 +225,7 @@ h1{
 	color: #ffffff;
 }
 .notes{
-	padding: 75px 75px 70px 80px;
+	padding: 75px 75px 47px 80px;
 }
 .box{
 	width: 50%;
@@ -240,23 +248,29 @@ h1{
     vertical-align: middle;
     border-style: none;
     position: relative;
-	height: 470px;
+	height: 395px;
 }
 .quote{
-	width: 70%;
+	width: 90%;
 }
 .comment{
-	height: 253px;
+	height: 200px;
 }
 .comment .quotesign{
-    line-height: 40px;
+    line-height: 48px;
     color: #ffffff;
 }
 .quotesign{
+	font-family: 'Cardo', serif;
 	font-weight: 400;
     font-size: 30px;
     display: block;
 }
+	.quotename{
+    	font-size: 18px;
+		color: #fff;
+    	font-family: "Cardo", Georgia, "Times New Roman", serif;
+	}
 .dot-list{
 	text-align: center;
 	display: flex;
@@ -273,20 +287,20 @@ h1{
 	text-align: center;
 }
 .dwnld-cont{
-	padding: 100px 0px;
+	padding: 98px 0px 100px 0px;
 }
 .dwnld-cont p{
 	color: #2d3033;
-	font-size: 13px;
+	font-size: 14px;
 	text-transform: uppercase;
-	font-weight: bold;
-	margin: 0px 0px 35px 0px;
+	font-weight: 600;
+	margin: 0px 0px 42px 0px;
 }
-.dwnld-cont h1{
+.dwnld-cont h3{
 	color: #2d3033;
 	font-size: 28px;
 	font-weight: 300;
-	margin: 0px 0px 15px 0px;
+	margin: 0px 0px 10px 0px;
 }
 .dwnld-cont a:hover{
 	opacity: 0.8;
@@ -296,31 +310,33 @@ h1{
 }
 .footer-first{
 	display: flex;
+	padding-top: 50px;
 }
 .footer-box{
 	width: 33.3%;
 	text-align: center;
-    padding: 60px 40px;
+	margin-bottom: 76px;
+    padding: 0px 15px;
 }
-.footer-box:first-child{
-	padding: 60px 40px 60px 0px;
-}
-.footer-box:last-child{
-	padding: 60px 0px 60px 40px;
-}
-.footer-box h4{
+.footer-box h5{
+	font-size: 14px;
+    font-weight: 700;
 	color: #ffffff;
 	text-transform: uppercase;
+	margin: 9px 0px 20px 0px;
 }
 .footer-box p{
 	color: #afb0bc;
 	font-size: 14px;
-	font-weight: 500;
+    font-weight: 400;
+    line-height: 1.58;
 	font-family: 'Raleway', sans-serif;
+	margin-top: 5px;
 }
 .footer-box .si{
 	margin: 0;
 	padding-top: 0;
+	padding-left: 13px;
 }
 .footer-box ul{
 	list-style-type: none;
@@ -335,12 +351,27 @@ h1{
 .footer-last{
 	text-align: center;
 	background-color: #313454;
-	padding: 25px 0px;
-	color: #808080;
+	padding: 17px 0px 30px 0px;
+	color: #ffffff80;
 	font-size: 14px;
-	font-weight: 500;
+	font-weight: 400;
 	font-family: 'Raleway', sans-serif;
-	line-height: 1.5;
+	line-height: 1.58;
+}
+.footer-last p{
+	margin: 3px 0px 0px 0px;
+}
+.footer .fa-heart {
+    color: #e84545;
+    font-size: 11px;
+    margin: 0 2px;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+}
+.pulse {
+    animation-name: pulse;
 }
 
 
@@ -355,9 +386,9 @@ h1{
 }
 
 
-@media (max-width: 1200px){
+/*@media (max-width: 1200px){
 	.wrap {
-		width: auto;
+		width: 100%;
 		margin: 0 auto;
 	}
 	.logo img{
@@ -446,6 +477,10 @@ h1{
 
 
 @media (max-width: 768px){
+	.wrap {
+		width: 90%;
+		margin: 0 auto;
+	}
 	.topnav a:not(:first-child){
     	display: none;
   	}
@@ -467,7 +502,7 @@ h1{
   	/*.topnav.responsive {float: left;}*/
   	.topnav.responsive {
     	display: block;
-    	width: 92%;
+    	width: 89%;
     	text-align: right;
 	}
 	.icon{
@@ -476,33 +511,40 @@ h1{
 		height: 42px;
 	    overflow: hidden;
 	    position: fixed;
-	    right: 4%;
-	    top: 18px;
+	    right: 5%;
+	    top: 30px;
 	    white-space: nowrap;
-	    width: 35px;
+	    width: 37px;
 	    z-index: 99999;
 		text-decoration: none;
 	}
 	
 	.logo img{
-		padding: 30px 10px 27px 30px;
+		padding: 0px;
 		float: left;
 	}
-	.nav{
-		background-image: url("images/masthead.jpg");
+	/*.nav{
 		position: fixed;
 		top: 0;
     	width: 100%;
     	z-index: 1;
+	}*/
+	.head{
+		padding: 41px 0px;
+		border-bottom: solid 1px #4d4e66;
 	}
 	.head ul{
 		float: right;
-		top: 90px;
-   		left: 64px;
+		top: 100px;
+   		left: 85px;
 		margin: 0;
 		padding: 0;
 		list-style-type: none;
 		display: none;
+		position: absolute;
+	}
+	.head ul, .nav{
+		border-bottom: none;
 	}
 	.head li{
 		float: none;
@@ -516,16 +558,10 @@ h1{
 		font-size: 14px;
 		font-weight: 700;
 		text-decoration: none;
-	}
-	#line{
-		border: solid 1px #4a4c63;
-		margin: 0px 30px;
-		width: 689px;
-    	top: 94px;
-    	position: absolute;
+		padding-left: 0px;
 	}
 	.banner{
-		padding: 200px 50px 150px 50px;
+		padding: 105px 0px 237px 0px;
 	}
 	.banner .content {
 	    margin: 0;
@@ -537,11 +573,11 @@ h1{
 		color: #ffffff;
 		font-size: 42px;
 		font-weight: 600;
-		margin: 20px 0px;
+		margin: 16px 0px 10px 0px;
 	}
 	.content p{
-		font-size: 16px;
-		font-weight: 400;
+		font-size: 18px;
+		font-weight: 300;
 		color: #ffffff;
 		line-height: 1.5;
 	}
@@ -549,13 +585,14 @@ h1{
 		opacity: 0.8;
 	}
 	.content img{
-		margin-top: 50px;
+		margin: 0px;
 	}
 	.sponly{
 		display: none;
 	}
 	.features{
 		padding: 100px 0px;
+		width: 93%;
 	}
 	.features-con{
 		display: grid;
@@ -563,7 +600,21 @@ h1{
 	}
 	.features-box{
 		text-align: center;
-		padding: 5% 12%;
+	}
+	.features-box:nth-child(2n+1){
+		padding: 0% 8% 13% 2%;
+	}
+	.features-box:nth-child(2n+0){
+		padding: 0% 3% 13% 7%;
+	}
+	.features-box h4 {
+    	margin: 27px 0px 10px 0px;
+	}
+	.features-box p {
+		margin-top: 8px;
+		font-size: 14px;
+    	font-weight: 400;
+		line-height: 1.6;
 	}
 	.work-img{
 		width: 50%;
@@ -576,7 +627,8 @@ h1{
 	}
 	.list-team{
 		display: inline-block;
-	}
+		margin: -2px -30px -2px -29px;
+}
 	.box-team{
 		width:  50%;
 		float: left;
@@ -586,13 +638,13 @@ h1{
 		width:  50%;
 		float: left;
 		text-align: center;
-		padding: 15px 0px 0px 0px;
+		padding: 30px 0px 0px 0px;
 	}
 	.box-team:last-child{
 		width:  50%;
 		float: left;
 		text-align: center;
-		padding: 15px 0px 0px 0px;
+		padding: 30px 0px 0px 0px;
 	}
 	.box-team h2{
 		font-weight: 500;
@@ -640,42 +692,40 @@ h1{
 	}
 	.client-photo{
 		display: block;
-		height: 435px;
+		height: 402px;
 	}
 	.client-photo img{
-		width: 100%;
-	    vertical-align: middle;
-	    border-style: none;
-	    position: relative;
-		height: 436px;
-	}
-	.quote{
-		width: 75%;
+		height: auto;
 	}
 	.notes{
-		padding: 75px 70px 70px 80px;
+		padding: 30px 70px 30px 50px;
 	}
 	.comment{
-		height: 220px;
+		height: 150px;
 	}
 	.comment .quotesign{
- 	   line-height: 36px;
+ 	   line-height: 48px;
  	   color: #ffffff;
 	}
 	.quotesign{
+		font-family: 'Cardo', serif;
 		font-weight: 400;
 	    font-size: 30px;
 	    display: block;
 	}
+	.quotename{
+    	font-size: 20px;
+	}
 	.footer-first{
 		display: block;
 		font: icon;
-		margin-bottom: 50px;
+		font-family: "Raleway", sans-serif;
+		width: 740px;
 	}
 	.footer-box{
 		width: 100%;
-		text-align: center;
-	    padding: 40px 0px 0px 0px !important;
+	    padding: 0px;
+		margin-bottom: 50px;
 	}
 	.footer-box h4{
 		color: #ffffff;
@@ -692,11 +742,12 @@ h1{
 	.footer-box .si{
 		margin: 0;
 		padding-top: 0;
+		padding-left: 0px;
 	}
 	.footer-box ul{
 		list-style-type: none;
 		margin: 0;
-		padding-left: 315px;
+		padding-left: 302px;
 	}
 	.footer-box li{
 		float: left;
@@ -738,38 +789,35 @@ h1{
   	/*.topnav.responsive {float: left;}*/
   	.topnav.responsive {
     	display: block;
-    	width: 92%;
+    	width: 100%;
     	text-align: right;
 	}
 	.icon{
-		background-color: #E84545;
-		border-radius: 50%;
-		height: 42px;
-	    overflow: hidden;
-	    position: fixed;
-	    right: 4%;
-	    top: 18px;
-	    white-space: nowrap;
-	    width: 35px;
-	    z-index: 99999;
-		text-decoration: none;
+    	height: 37px;
+    	right: 5%;
+    	top: 31px;
+    	width: 32px;
 	}
 	
 	.logo img{
-		padding: 30px 10px 27px 30px;
+		padding: 30px 10px 27px 0px;
 		float: left;
 	}
-	.nav{
+	/*.nav{
 		background-image: url("images/masthead.jpg");
 		position: fixed;
 		top: 0;
     	width: 100%;
     	z-index: 1;
+	}*/
+	.head {
+    	padding: 10px 0px 13px 0px;
+    	border-bottom: solid 1px #4d4e66;
 	}
 	.head ul{
 		float: right;
 		top: 90px;
-   		left: 64px;
+   		left: 0px;
 		margin: 0;
 		padding: 0;
 		list-style-type: none;
@@ -777,10 +825,14 @@ h1{
 	}
 	.head li{
 		float: none;
-		padding: 20px 30px 10px 15px;
+		padding: 0px;
+		margin-left: 20px;
+		margin-top: 45px;
 	}
 	.head li:last-child{
-		padding: 20px 30px 30px 15px;
+		padding: 0px;
+		margin-left: 20px;
+		margin-top: 30px;
 	}
 	.head li a{
 		color: #ccccd3;
@@ -796,7 +848,7 @@ h1{
     	position: absolute;
 	}
 	.banner{
-		padding: 170px 35px 220px 35px;
+		padding: 60px 15px 220px 15px;
 	}
 	.banner .content {
 	    margin: 0;
@@ -834,10 +886,11 @@ h1{
 	}
 	.features-box{
 		text-align: center;
-		padding: 5% 12%;
+		padding: 5% 12% !important;
+		width: auto;
 	}
 	.work-img{
-		width: 50%;
+		width: 100%;
 		float: left;
 		background-color: #d3403f;
 		position: relative;
@@ -847,20 +900,21 @@ h1{
 	}
 	.list-team{
 		display: inline-block;
+		margin: 0px;
 	}
 	.box-team{
-		width:  50%;
+		width:  100%;
 		float: left;
 		text-align: center;
 	}
 	.box-team:nth-child(3){
-		width:  50%;
+		width:  100%;
 		float: left;
 		text-align: center;
 		padding: 15px 0px 0px 0px;
 	}
 	.box-team:last-child{
-		width:  50%;
+		width:  100%;
 		float: left;
 		text-align: center;
 		padding: 15px 0px 0px 0px;
@@ -911,37 +965,44 @@ h1{
 	}
 	.client-photo{
 		display: block;
-		height: 435px;
+		height: 218px;
 	}
 	.client-photo img{
 		width: 100%;
 	    vertical-align: middle;
 	    border-style: none;
 	    position: relative;
-		height: 436px;
+		height: auto;
 	}
 	.quote{
-		width: 75%;
+		width: 90%;
 	}
 	.notes{
-		padding: 75px 70px 70px 80px;
+		padding: 35px 30px 35px 40px;
 	}
 	.comment{
-		height: 220px;
+		height: 160px;
 	}
 	.comment .quotesign{
  	   line-height: 36px;
  	   color: #ffffff;
 	}
 	.quotesign{
+		font-family: 'Cardo', serif;
 		font-weight: 400;
-	    font-size: 30px;
+	    font-size: 22px;
 	    display: block;
+	}
+	.quotename{
+    	font-size: 14px;
+		color: #fff;
+    	font-family: "Cardo", Georgia, "Times New Roman", serif;
 	}
 	.footer-first{
 		display: block;
 		font: icon;
 		margin-bottom: 50px;
+		width: 90%;
 	}
 	.footer-box{
 		width: 100%;
