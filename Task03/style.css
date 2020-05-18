@@ -514,10 +514,10 @@ a:hover, a:focus {
     	border-radius: 50%;
     	height: 44px;
     	overflow: hidden;
-    	position: fixed;
+    	position: absolute;
     	right: 5%;
     	text-indent: 100%;
-    	top: 32px;
+    	top: 26px;
     	white-space: nowrap;
     	width: 44px;
     	z-index: 99999;
@@ -570,6 +570,7 @@ a:hover, a:focus {
 */
 	.logo img{
 		float: left;
+		padding-left: 39px;
 	}
 	.fixed{
 		position: fixed!important;
@@ -579,7 +580,7 @@ a:hover, a:focus {
     	transition: 1s;
     	width: 100%;
 		left:0;
-		padding: 40px 0px 40px 40px;
+		padding: 36px 0px 36px 0px;
 	}
 	.head{
 		padding: 36px 0px;
