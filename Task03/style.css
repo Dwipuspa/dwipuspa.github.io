@@ -572,11 +572,13 @@ a:hover, a:focus {
 		padding: 4px 0px 0px 0px;
 		float: left;
 	}
-	.nav{
-		position: fixed;
-		top: 0;
-    	width: 90%;
-    	z-index: 1;
+	.fixed{
+		position: fixed!important;
+    	top: 0;
+    	z-index: 999;
+    	background: #2a2e48;
+    	transition: 1s;
+    	width: 100%;
 	}
 	.head{
 		padding: 36px 0px;
