@@ -15,10 +15,19 @@
 	<div class="wrapper">
 		<div class="header clearfix">
 			<div class="wrap">
-				<div class="head clearfix">
-					<div class="nav">
+				<div class="head nav clearfix">
+					
 						<div class="logo"><a href="#"><img src="images/logo.png" alt=""></a></div>
-						<a href="javascript:void(0);" style="font-size: 23px;color: #ffffff;padding-left: 10px;padding-top: 5px;" class="icon" onclick="myFunction()">&#9776;</a>
+						<div id="nav1" class="nav_bar">
+							<div class="nav_icon"></div>
+							<div class="nav_icon"></div>
+							<div class="nav_icon"></div>
+						</div>
+<!--
+						<div class="nav_bar">
+							<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+						</div>
+-->
 						<ul class="topnav clearfix" id="myTopnav">
 							<li><a class="active" href="#features">FEATURES</a></li>
 							<li><a href="#works">WORKS</a></li>
@@ -26,13 +35,13 @@
 							<li><a href="#testimonials">TESTIMONIALS</a></li>
 							<li><a href="#download">DOWNLOAD</a></li>
 						</ul>
-					</div>
+					
 				</div>
 				<div class="banner clearfix">
 					<div class="content">
 						<h1>YOUR FAVORITE ONE PAGE <br class="sponly">MULTI PURPOSE TEMPLATE</h1>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna <br class="sponly">vel scelerisque nisl consectetur et.</p>
-						<a href="#"><img src="images/button.gif" width="200" height="46" alt=""></a>
+						<a href="#" class="btn btn-large">Find out more</a>
 					</div>
 				</div>
 			</div>
@@ -233,7 +242,7 @@
 			<div class="dwnld-cont">
 				<h3>Are You Ready to Start? Download Now For Free!</h3>
 				<p>Fusce dapibus, tellus ac cursus commodo</p>
-				<a href="#"><img src="images/buttond.gif" width="280" height="46" alt=""></a>
+				<a href="#" class="btn btn-large animated tada">Download for Free</a>
 			</div>
 		</div>
 		<div class="footer">
@@ -262,6 +271,14 @@
 			</div>
 		</div>
 	</div>
+	<script>
+	$(document).ready(function(){
+  $("#nav1").click(function(){
+    $(".topnav").slideToggle();
+			  });
+			});
+</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 	<script src="js/myscript.js"></script>
 </body>

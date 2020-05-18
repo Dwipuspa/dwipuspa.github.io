@@ -18,6 +18,10 @@ body {
 }
 .header {
 	background-image: url("images/masthead.jpg");
+	background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 750px;
 }
 .wrap {
 	width: 1170px;
@@ -53,7 +57,7 @@ body {
 	color: #e84545;
 }*/
 .banner{
-	padding: 113px 0px 103px 0px;
+	padding-top: 113px;
 }
 .banner .content {
     margin: 0;
@@ -76,11 +80,27 @@ h1{
 	line-height: 1.5;
 	margin: 0px 0px 80px 0px;
 }
-.content a:hover{
-	opacity: 0.8;
+.btn-large {
+    padding: 15px 40px;
 }
-.content img{
-	margin-bottom: 50px;
+.btn {
+    background-color: #e84545;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 2px;
+    display: inline-block;
+    text-transform: uppercase;
+	text-decoration: none;
+	line-height: 1.42857143;
+}
+.btn:hover, .btn:focus {
+    background-color: #e52e2e;
+    color: #fff;
+}
+a:hover, a:focus {
+    transition: background-color, color, 0.3s;
 }
 .features{
 	padding: 100px 0px;
@@ -302,9 +322,6 @@ h1{
 	font-weight: 300;
 	margin: 0px 0px 10px 0px;
 }
-.dwnld-cont a:hover{
-	opacity: 0.8;
-}
 .footer{
 	background-color: #3a3e64;
 }
@@ -384,6 +401,7 @@ h1{
   text-align: center;
   text-decoration: none;
 }
+
 
 
 /*@media (max-width: 1200px){
@@ -481,6 +499,30 @@ h1{
 		width: 90%;
 		margin: 0 auto;
 	}
+	.nav_icon {
+    	width: 18px;
+    	height: 3px;
+    	background-color: white;
+    	margin: 3px 0;
+    	left: 31%;
+    	position: relative;
+    	top: 25%;
+	}
+	.nav_bar {
+    	float: right;
+		background-color: #e84545;
+    	border-radius: 50%;
+    	height: 44px;
+    	overflow: hidden;
+    	position: fixed;
+    	right: 5%;
+    	text-indent: 100%;
+    	top: 32px;
+    	white-space: nowrap;
+    	width: 44px;
+    	z-index: 99999;
+    	transition: all 0.3s;
+	}
 	.topnav a:not(:first-child){
     	display: none;
   	}
@@ -514,23 +556,30 @@ h1{
 	    right: 5%;
 	    top: 30px;
 	    white-space: nowrap;
-	    width: 37px;
+	    width: 36px;
 	    z-index: 99999;
 		text-decoration: none;
 	}
-	
+/*
+	.nav_bar, .icon{
+		font-size: 25px;
+    	color: #ffffff;
+    	padding-left: 12px;
+   		padding-top: 5px;
+	}
+*/
 	.logo img{
-		padding: 0px;
+		padding: 4px 0px 0px 0px;
 		float: left;
 	}
-	/*.nav{
+	.nav{
 		position: fixed;
 		top: 0;
-    	width: 100%;
+    	width: 90%;
     	z-index: 1;
-	}*/
+	}
 	.head{
-		padding: 41px 0px;
+		padding: 36px 0px;
 		border-bottom: solid 1px #4d4e66;
 	}
 	.head ul{
@@ -542,9 +591,6 @@ h1{
 		list-style-type: none;
 		display: none;
 		position: absolute;
-	}
-	.head ul, .nav{
-		border-bottom: none;
 	}
 	.head li{
 		float: none;
@@ -561,7 +607,7 @@ h1{
 		padding-left: 0px;
 	}
 	.banner{
-		padding: 105px 0px 237px 0px;
+		padding-top: 210px;
 	}
 	.banner .content {
 	    margin: 0;
@@ -573,19 +619,13 @@ h1{
 		color: #ffffff;
 		font-size: 42px;
 		font-weight: 600;
-		margin: 16px 0px 10px 0px;
+		margin: 17px 0px 10px 0px;
 	}
 	.content p{
 		font-size: 18px;
 		font-weight: 300;
 		color: #ffffff;
 		line-height: 1.5;
-	}
-	.content a:hover{
-		opacity: 0.8;
-	}
-	.content img{
-		margin: 0px;
 	}
 	.sponly{
 		display: none;
@@ -600,6 +640,7 @@ h1{
 	}
 	.features-box{
 		text-align: center;
+		width: auto;
 	}
 	.features-box:nth-child(2n+1){
 		padding: 0% 8% 13% 2%;
@@ -665,7 +706,7 @@ h1{
 	}
 	.box-team ul{
 		list-style-type: none;
-		padding-left: 55px;
+		padding-left: 125px;
 	}
 	.box-team li{
 		float: left;
@@ -799,6 +840,12 @@ h1{
     	width: 32px;
 	}
 	
+	.logo, .icon{
+		font-size: 25px;
+    	color: #ffffff;
+    	padding-left: 12px;
+   		padding-top: 5px;
+	}
 	.logo img{
 		padding: 30px 10px 27px 0px;
 		float: left;
@@ -867,9 +914,6 @@ h1{
 		font-weight: 300;
 		color: #ffffff;
 		line-height: 1.5;
-	}
-	.content a:hover{
-		opacity: 0.8;
 	}
 	.sponly{
 		display: none;
