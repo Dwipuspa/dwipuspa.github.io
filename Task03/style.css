@@ -31,6 +31,22 @@ body {
 	padding: 40px 0px;
 	border-bottom: solid 1px #4a4c63;
 }
+.fixed {
+    position: fixed!important;
+    top: 0;
+    z-index: 999;
+    background: #2a2e48;
+    transition: 1s;
+    width: 100%;
+    left: 0;
+    padding: 30px 0px;
+}
+.fixed .logo {
+    padding-left: 200px;
+}
+.fixed .topnav {
+    margin-right: 200px;
+}
 .logo img{
 	float: left;
 }
@@ -580,7 +596,7 @@ a:hover, a:focus {
 	    transition: 1s;
 	    width: 100%;
 	    left: 0;
-	    padding: 36px 0px 36px 0px;
+	    padding: 30px 0px;
 	}
 	.fixed .logo {
 	    padding-left: 37px;
@@ -626,7 +642,7 @@ a:hover, a:focus {
 		color: #ffffff;
 		font-size: 42px;
 		font-weight: 600;
-		margin: 17px 0px 10px 0px;
+		margin: 17px 0px 11px 0px;
 		line-height: 1.08;
 	}
 	.content p{
@@ -817,6 +833,16 @@ a:hover, a:focus {
 
 
 @media (max-width: 414px){
+	.nav_icon {
+    	left: 29%;
+	}
+	.fixed {
+	    transition: 0.5s;
+	    padding: 0px;
+	}
+	.fixed .logo {
+	    padding-left: 21px;
+	}
 	.topnav a:not(:first-child){
     	display: none;
   	}
@@ -847,12 +873,12 @@ a:hover, a:focus {
     	top: 31px;
     	width: 32px;
 	}
-	
+	.nav_bar {
+	    top: 18px;
+	}
 	.logo, .icon{
 		font-size: 25px;
     	color: #ffffff;
-    	padding-left: 12px;
-   		padding-top: 5px;
 	}
 	.logo img{
 		padding: 30px 10px 27px 0px;
@@ -916,6 +942,7 @@ a:hover, a:focus {
 		font-size: 32px;
 		font-weight: 700;
 		margin: 0px 0px 10px 0px;
+		line-height: 1.1;
 	}
 	.content p{
 		font-size: 18px;
