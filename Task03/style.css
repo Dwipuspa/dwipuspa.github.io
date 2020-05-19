@@ -843,6 +843,12 @@ a:hover, a:focus {
 	.fixed .logo {
 	    padding-left: 21px;
 	}
+	#navbar{
+		position: fixed;
+		padding: 10px 0px 13px 0px;
+    	border-bottom: solid 1px #4d4e66;
+		width: 90%;
+	}
 	.topnav a:not(:first-child){
     	display: none;
   	}
@@ -874,7 +880,8 @@ a:hover, a:focus {
     	width: 32px;
 	}
 	.nav_bar {
-	    top: 18px;
+	    top: 30px;
+		right: 0%;
 	}
 	.logo, .icon{
 		font-size: 25px;
@@ -892,8 +899,11 @@ a:hover, a:focus {
     	z-index: 1;
 	}*/
 	.head {
-    	padding: 10px 0px 13px 0px;
-    	border-bottom: solid 1px #4d4e66;
+    	padding: 0px;
+    	border-bottom: none;
+		position: fixed;
+    	width: 90%;
+    	z-index: 999;
 	}
 	.head ul{
 		float: right;
@@ -929,7 +939,7 @@ a:hover, a:focus {
     	position: absolute;
 	}
 	.banner{
-		padding: 74px 12px 232px 12px;
+		padding: 179px 12px 0px 12px;
 	}
 	.banner .content {
 	    margin: 0;
