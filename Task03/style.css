@@ -41,14 +41,9 @@ body {
     left: 0;
     padding: 30px 0px;
 }
-.fixed .logo {
-    padding-left: 200px;
-}
-.fixed .topnav {
-    margin-right: 200px;
-}
 .mxw{
 	max-width: 1170px;
+	margin: 0 auto;
 }
 .logo img{
 	float: left;
