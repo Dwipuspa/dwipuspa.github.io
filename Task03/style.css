@@ -530,7 +530,7 @@ a:hover, a:focus {
     	border-radius: 50%;
     	height: 44px;
     	overflow: hidden;
-    	position: absolute;
+    	position: fixed;
     	right: 5%;
     	text-indent: 100%;
     	top: 32px;
@@ -538,6 +538,9 @@ a:hover, a:focus {
     	width: 44px;
     	z-index: 99999;
     	transition: all 0.3s;
+	}
+	#navbar.fixed .nav_bar{
+		top: 20px;
 	}
 	.topnav a:not(:first-child){
     	display: none;
@@ -851,6 +854,9 @@ a:hover, a:focus {
     	border-bottom: solid 1px #4d4e66;
 		width: 90%;
 	}
+	#navbar.fixed .nav_bar{
+		top: 20px;
+	}
 	.topnav a:not(:first-child){
     	display: none;
   	}
@@ -876,8 +882,8 @@ a:hover, a:focus {
     	text-align: right;
 	}
 	.nav_bar {
-	    top: 30px;
-		right: 0%;
+		right: 5%;
+		position: fixed;
 	}
 	.logo{
 		font-size: 25px;
