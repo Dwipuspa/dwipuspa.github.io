@@ -838,7 +838,9 @@ a:hover, a:focus {
 	}
 	.fixed {
 	    transition: 0.5s;
-	    padding: 0px;
+	    padding: 0px !important;
+		border-bottom: none !important;
+    	width: 100% !important;
 	}
 	.fixed .logo {
 	    padding-left: 21px;
@@ -873,17 +875,11 @@ a:hover, a:focus {
     	width: 100%;
     	text-align: right;
 	}
-	.icon{
-    	height: 37px;
-    	right: 5%;
-    	top: 31px;
-    	width: 32px;
-	}
 	.nav_bar {
 	    top: 30px;
 		right: 0%;
 	}
-	.logo, .icon{
+	.logo{
 		font-size: 25px;
     	color: #ffffff;
 	}
@@ -1013,25 +1009,27 @@ a:hover, a:focus {
 		padding: 15px 0px 0px 0px;
 	}
 	.box-team h2{
-		font-weight: 500;
+		font-weight: 400;
 		text-align: center;
 		padding-left: 11px;
 	}
 	.box-team h4{
-		font-weight: 500;
+		font-weight: 400;
 		color: #e84545;
 		text-align: center;
 		padding-left: 11px;
 	}
 	.box-team p{
 		text-align: center;
-		padding: 0px 55px;
-		font-weight: 500;
+		padding: 0px 51px;
+		font-weight: 400;
 		color: #6c7279;
+		margin-bottom: 28px;
 	}
 	.box-team ul{
 		list-style-type: none;
-		padding-left: 55px;
+		padding-left: 120px;
+		padding-bottom: 70px;
 	}
 	.box-team li{
 		float: left;
