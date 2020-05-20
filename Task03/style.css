@@ -417,90 +417,6 @@ a:hover, a:focus {
 }
 
 
-
-/*@media (max-width: 1200px){
-	.wrap {
-		width: 100%;
-		margin: 0 auto;
-	}
-	.logo img{
-		padding: 40px 10px 30px 30px;
-		float: left;
-	}
-	.head ul{
-		float: right;
-		margin: 0;
-		padding: 0;
-		list-style-type: none;
-	}
-	.head li{
-		float: left;
-		padding: 40px 15px 40px 15px;
-	}
-	.head li:last-child{
-		padding: 40px 30px 40px 15px;
-	}
-	.head li a{
-		color: #ccccd3;
-		font-size: 14px;
-		font-weight: 700;
-		text-decoration: none;
-	}
-	.banner{
-		padding: 100px 70px;
-	}
-	.banner .content {
-	    margin: 0;
-	}
-	.content{
-		text-align: center;
-	}
-	h1{
-		color: #ffffff;
-		font-size: 55px;
-		font-weight: 600;
-		margin: 32px 0px;
-	}
-	.content p{
-		font-size: 20px;
-		font-weight: 400;
-		color: #ffffff;
-		line-height: 1.5;
-	}
-	.content a:hover{
-		opacity: 0.8;
-	}
-	.content img{
-		margin-top: 50px;
-	}
-}
-/* @media (max-width: 840px){
-	.logo img{
-		padding: 40px 10px 30px 30px;
-		float: left;
-	}
-	.head ul{
-		float: right;
-		margin: 0;
-		padding: 0;
-		list-style-type: none;
-	}
-	.head li{
-		float: none;
-		padding: 20px 30px 10px 15px;
-	}
-	.head li:last-child{
-		padding: 20px 30px 30px 15px;
-	}
-	.head li a{
-		color: #ccccd3;
-		font-size: 14px;
-		font-weight: 700;
-		text-decoration: none;
-	}
-}*/
-
-
 @media (min-width: 769px){
        .icon{
             display: none;
@@ -617,7 +533,7 @@ a:hover, a:focus {
 		position: absolute;
 	}
 	.head li{
-		float: none;
+		float: left;
 		padding: 20px 30px 10px 15px;
 	}
 	.head li:last-child{
@@ -915,7 +831,7 @@ a:hover, a:focus {
 		display: none;
 	}
 	.head li{
-		float: none;
+		float:left;
 		padding: 0px;
 		margin-left: 20px;
 		margin-top: 45px;
