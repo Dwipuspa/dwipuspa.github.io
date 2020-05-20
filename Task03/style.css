@@ -47,6 +47,9 @@ body {
 .fixed .topnav {
     margin-right: 200px;
 }
+.mxw{
+	max-width: 1170px;
+}
 .logo img{
 	float: left;
 }
