@@ -1112,15 +1112,13 @@ a:hover, a:focus {
 	    padding: 0px;
 		margin-left: -7px;
 	}
-	.footer-box h4{
-		color: #ffffff;
-		text-transform: uppercase;
-		margin: 15px 0px;
+	.footer-box h5{
+		margin: 10px 0px 17px 0px;
 	}
 	.footer-box p{
 		color: #afb0bc;
 		font-size: 14px;
-		font-weight: 500;
+		font-weight: 400;
 		font-family: 'Raleway', sans-serif;
 		margin: 0px;
 	}
@@ -1141,11 +1139,15 @@ a:hover, a:focus {
 	.footer-last{
 		text-align: center;
 		background-color: #313454;
-		padding: 25px 0px;
-		color: #808080;
+		padding: 20px 0px;
+		color: #ffffff80;
 		font-size: 14px;
-		font-weight: 500;
+		font-weight: 400;
 		font-family: 'Raleway', sans-serif;
-		line-height: 1.5;
+		line-height: 22.4px;
+	}
+	.footer-last p{
+		margin-top: 0px;
+		margin-bottom: 10px;
 	}
 }
