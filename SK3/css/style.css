@@ -259,6 +259,11 @@ form input[type=text] {
 	padding: 0px 10px;
 }
 
+.reastitle img{
+	width: 164px;
+	height: 182px;
+}
+
 .boxr p{
 	text-align: left;
 	margin-bottom: 19px;
