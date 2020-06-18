@@ -259,19 +259,25 @@ form input[type=text] {
 	padding: 0px 10px;
 }
 
-.reastitle img{
-	width: 164px;
-	height: 182px;
-}
-
 .boxr p{
 	text-align: left;
 	margin-bottom: 19px;
 	color: #222222;
 }
-.reasonitem.boxr, .img {
+.reasonitem.boxr, .img1 {
+	width: 162px;
+	height: 156px;
+}
+.reasonitem.boxr, .img2 {
 	margin-top: 7px;
     margin-left: 2px;
+	width: 164px;
+	height: 139px;
+}
+
+.reasonitem.boxr, .img3 {
+	width: 134px;
+	height: 182px;
 }
 
 .note{
