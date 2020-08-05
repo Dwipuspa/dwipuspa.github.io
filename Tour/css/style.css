@@ -1,0 +1,272 @@
+@charset "shift_jis";
+
+/* ========================================================
+	リセット
+======================================================== */
+body, h1, h2, p, ul, li, dl, dt, dd {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "メイリオ", Meiryo, arial, sans-serif;
+	line-height: 1;
+}
+
+h1, h2 {
+	font-size: 14px;
+	font-weight: normal;
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	border: 0;
+	vertical-align: top;
+}
+
+.inner {
+	width: 1080px;
+	margin: 0 auto;
+}
+
+.clearfix:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+
+/* ========================================================
+	ヘッダー
+======================================================== */
+#header {
+	min-width: 1080px;
+	padding: 9px 0 5px;
+	border-bottom: 1px solid #cfcfcf;
+}
+#header #logo {
+	float: left;
+	width: 199px;
+}
+#header #nav {
+	float: right;
+	width: 260px;
+}
+#header #nav .nav_list .btn {
+	float: left;
+	width: 125px;
+}
+#header #nav .nav_list .btn a {
+	display: block;
+	padding: 11px 10px 10px;
+	color: #fff;
+	font-size: 14px;
+	background-color: #d00f2b;
+	text-align: center;
+	text-decoration: none;
+}
+#header #nav .nav_list .btn {
+	margin-right: 10px;
+}
+#header #nav .nav_list .btn.last {
+	margin-right: 0;
+}
+
+
+/* ========================================================
+	フッターボトム
+======================================================== */
+#footer_btm {
+	min-width: 1080px;
+	padding: 23px 0;
+	background-color: #4f4f4f;
+}
+#footer_btm .copyright {
+	float: left;
+	width: 213px;
+	padding-top: 3px;
+	color: #fff;
+	font-size: 11px;
+}
+#footer_btm .footer_btm_link {
+	float: right;
+	font-size: 0;
+}
+#footer_btm .footer_btm_link .footer_btm_link_list li {
+	display: inline-block;
+	padding: 3px 17px;
+	border-right: 1px solid #fff;
+}
+#footer_btm .footer_btm_link .footer_btm_link_list li.last {
+	padding-right: 0;
+	border-right: none;
+}
+#footer_btm .footer_btm_link .footer_btm_link_list li a {
+	display: block;
+	color: #fff;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+/* ========================================================
+	ここから追加
+======================================================== */
+
+.wrap {
+	width: 1080px;
+	margin: auto;
+}
+
+.main-visual{
+	background-color: #1f1f1f;
+	text-align: center;
+}
+
+.content_recom{
+	padding-top: 36px;
+	background-color: #f0f1f4;
+}
+
+.content_2_clm{
+	margin-top: 48px;
+	margin-bottom: 50px;
+}
+.ctn_01{
+	float:left;
+	margin-bottom:30px;
+}
+.ctn_01 img{
+	float: left;
+}
+.ctn_02{
+	float:right;
+	margin-bottom:30px;
+	margin-right: 7px;
+}
+.ctn_02 img{
+	float: left;
+}
+.ctn_03{
+	float:left;
+}
+.ctn_03 img{
+	float: left;
+}
+.ctn_04{
+	float:right;
+	margin-right: 7px;
+}
+.ctn_04 img{
+	float: left;
+}
+.txt_01{
+	font-size:28px;
+	font-weight: bold;
+}
+.txt_02{
+	margin-left: 178px;
+}
+.txt_02 h3{
+	font-size:18px;
+	color:#2573c0;
+	font-weight: bold;
+	width: 325px;
+	margin-top: 1px;
+    line-height: 1.7;
+	text-decoration: underline;
+}
+.txt_02 p{
+	margin-top: 9px;
+	color: #da0303;
+	font-size: 22px;
+    font-family: arial;
+	font-weight: bold;
+}
+
+strong{
+	font-size: 46px;
+}
+
+.btn_more{
+	text-align: center;
+}
+
+.btn_more p{
+	display: inline-block;
+	width: 100px;
+	padding: 15px 50px 14px 50px;
+	background-color: #d00f2b;
+	color: #ffffff;
+}
+
+.list_banner{
+	padding: 50px 0px 27px 0px;
+}
+
+.banner{
+	width: 350px;
+    float: left;
+	margin-right: 16px;
+}
+.banner:last-child{
+	margin-right: -2px;
+}
+
+.banner p{
+	margin-top: 4px;
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+.line-content{
+	border: solid 1.5px #d00f2b;
+	margin-top: 56px;
+}
+
+.notice{
+	line-height: 2;
+	font-size: 14px;
+}
+
+.notice ul{
+	margin-bottom: 56px;
+}
+
+.notice li{
+	border-bottom: dotted 1px #bbbbbb;
+	padding: 15px 0px 13px 23px;
+}
+
+.notice li a{
+	color: #333333;
+}
+
+.footer{
+	background-color: #333333;
+}
+
+.headline{
+	float: left;
+	color: #ffffff;
+}
+
+.headline li{
+	float: left;
+	font-size: 14px;
+	margin-right: 30px;
+}
+.headline li a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.headline h3{
+	font-size: 21px;
+}
+
+.banner{
+	float: right;
+}
