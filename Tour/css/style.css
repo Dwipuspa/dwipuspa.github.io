@@ -246,27 +246,53 @@ strong{
 
 .footer{
 	background-color: #333333;
+	padding: 38px 0px 60px 0px;
 }
 
 .headline{
 	float: left;
+	width: 511px;
 	color: #ffffff;
 }
 
-.headline li{
-	float: left;
-	font-size: 14px;
-	margin-right: 30px;
+.dom-trv{
+    float: left;
+	width: 145px;
+    margin-right: 25px;
+	margin-bottom: 19px;
 }
-.headline li a{
+
+.list-trv{
+	font-size: 14px;
+}
+
+.list-trv a{
 	color: #ffffff;
 	text-decoration: none;
+	margin: 4px 0px 0px -1px;
+}
+
+.icon{
+	float: left;
+	margin-left: -6px;
+    font-size: 22px;
 }
 
 .headline h3{
 	font-size: 21px;
 }
 
-.banner{
+.hr{
+	border-bottom: solid 1px #ffffff;
+	padding-top: 8px;
+	margin-bottom: 32px;
+}
+
+.banner-footer{
 	float: right;
+	width: 511px;
+}
+
+.banner-footer img{
+	margin-top: 21px;
 }
